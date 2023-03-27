@@ -1,10 +1,10 @@
 import java.util.List;
 
 public class Library {
-    String LibraryName;
-    List<Book> books;
-    List<Member> members;
-    List<Librarian> librarians;
+    private String LibraryName;
+    private List<Book> books;
+    private List<Member> members;
+    private List<Librarian> librarians;
     Member member;
     void addBook() {
 

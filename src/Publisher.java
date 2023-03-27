@@ -1,7 +1,7 @@
 public class Publisher {
-    String AuthorName;
-    String AuthorAge;
-    String Book;
+    public String AuthorName;
+    private String AuthorAge;
+    private String Book;
     Book book;
     void publishBook() {
 

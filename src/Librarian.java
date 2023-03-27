@@ -1,8 +1,8 @@
 public class Librarian {
-    String LibrarianID;
-    String LibrarianName;
-    String LibrarianLastName;
-    String workingHours;
+    public String LibrarianID;
+    private String LibrarianName;
+    private String LibrarianLastName;
+    private String workingHours;
     Member member;
     void gotoWork() {
 

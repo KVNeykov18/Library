@@ -1,8 +1,8 @@
 public class Book extends Member {
-    String BookName;
-    String Author;
-    String borrowDate;
-    double bookPrice;
+    private String BookName;
+    private String Author;
+    private String borrowDate;
+    private double bookPrice;
 
     void borrowBook() {
 

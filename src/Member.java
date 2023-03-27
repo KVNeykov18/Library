@@ -1,9 +1,9 @@
 public class Member {
-    int memberID;
-    String memberName;
-    String memberLastName;
-    String memberAddress;
-    String membershipPeriod;
+    public int memberID;
+    private String memberName;
+    private String memberLastName;
+    private String memberAddress;
+    private String membershipPeriod;
 
     void signup() {
 
